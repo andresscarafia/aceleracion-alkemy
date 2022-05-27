@@ -1,6 +1,4 @@
-'''
-Challenge Data Analytics y Python de Alkemy
-'''
+#archivos_fuente.py
 
 import pandas as pd
 import requests
@@ -36,6 +34,7 @@ for tupla in lista_urls:
     csv_file.write(url_content)
     csv_file.close()
 
+############################################################
 
 
 
